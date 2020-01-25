@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	Class-Cursor-Cached
 Summary:	DBIx::Class::Cursor::Cached - cursor class with built-in caching support
